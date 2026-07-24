@@ -1,8 +1,31 @@
 aid: colibri
 name: Colibri
-description: Colibri is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ColibrITD (Colibri) is a French quantum-computing deep-tech company founded in
+  2019 in Paris by Dr. Laurent Guiraud and Hacene Goudjil, with a mission to make
+  quantum computing accessible to any enterprise. It develops quantum software for
+  scientific and industrial applications, including QUICK (a quantum multiphysics
+  simulation platform), QUICK-PDE (a Qiskit function for solving partial
+  differential equations), the H-DES hybrid differential-equation solver, and MPQP
+  (Multi-Platform Quantum Programming) - an open-source Python library for building
+  quantum circuits and executing them across IBM Qiskit, Eviden myQLM, Google Cirq,
+  AWS Braket, and Microsoft Azure Quantum backends. ColibrITD serves the
+  semiconductors, finance, defense, aerospace, automotive, and energy industries.
+  Its primary developer surface is the MPQP Python SDK (PyPI + GitHub) and its
+  documentation, rather than a hosted REST API.
 url: https://raw.githubusercontent.com/api-evangelist/colibri/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/133857128?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Quantum Computing
+- Deep Tech
+- SDK
+- Python
+- Scientific Computing
+- Simulation
+- Developer Tools
 apis: []
+common:
+- type: DomainSecurity
+  url: security/colibri-domain-security.yml
+- type: Website
+  url: https://www.colibritd.com
+- type: GitHubOrganization
+  url: https://github.com/ColibrITD-SAS
+- type: Documentation
+  url: https://mpqpdoc.colibri-quantum.com/
+- type: GettingStarted
+  url: https://mpqpdoc.colibri-quantum.com/getting-started.html
+- type: SourceCode
+  url: https://github.com/ColibrITD-SAS/mpqp
+- type: Blog
+  url: https://www.colibritd.com/blog
+- type: Support
+  url: https://www.colibritd.com/contact
+- type: Packages
+  url: packages/colibri-packages.yml
+- type: SDKs
+  url: packages/colibri-packages.yml
+- type: ChangeLog
+  url: changelog/colibri-changelog.yml
+- type: LLMsTxt
+  url: llms/colibri-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

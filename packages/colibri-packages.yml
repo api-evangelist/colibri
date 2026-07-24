@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/mpqp/
+packages:
+  - language: python
+    registry: pypi
+    name: mpqp
+    url: https://pypi.org/project/mpqp/
+    install: pip install mpqp
+    version: 0.6.0
+    license: GPL-3.0-or-later
+    repository: https://github.com/ColibrITD-SAS/mpqp
+    docs: https://mpqpdoc.colibri-quantum.com/
+    description: >-
+      MPQP (Multi-Platform Quantum Programming) is ColibrITD's open-source Python
+      library for creating quantum circuits and running them across multiple
+      backends from various providers (IBM Qiskit, Eviden myQLM, Google Cirq,
+      AWS Braket, Microsoft Azure Quantum). Supports Python 3.10-3.13 on Windows,
+      Linux, and macOS.
+    official: true

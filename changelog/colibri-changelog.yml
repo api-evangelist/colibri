@@ -1,0 +1,57 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/ColibrITD-SAS/mpqp/releases
+subject: MPQP (Multi-Platform Quantum Programming) Python library
+scheme: semver
+current_version: 0.6.0
+entries:
+  - version: 0.6.0
+    date: '2026-04-17'
+    breaking: false
+    highlights:
+      - Faster install via limited/partial provider installs (e.g. braket only).
+      - Simplified import structure (most things importable from the top module).
+      - Performance improvements - pre-transpilation for VQAs, fewer deep copies.
+      - Pauli string improvements including pauli_string_from_str.
+      - Direct braket export in to_other_language; mpqp.__version__ accessor.
+  - version: 0.5.0
+    date: '2025-07-29'
+    breaking: false
+    highlights:
+      - New QAOA module to solve QUBO problems.
+      - Optimized multi-observable expectation values for Google Cirq and AWS Braket.
+      - Noisy simulations for Cirq devices.
+      - Translate external circuits into QCircuit; unitary decomposition.
+  - version: 0.4.0
+    date: '2025-04-10'
+    breaking: false
+    highlights:
+      - Multi-observable expectation values in a single ExpectationMeasure (IBM).
+      - Local storage API for jobs and results.
+      - VQA optimization callback support; statevector circuit initialization.
+      - Remote job submission for Microsoft Azure Quantum.
+  - version: 0.3.2
+    date: '2025-02-18'
+    breaking: false
+    highlights:
+      - Maintenance and fixes on the 0.3 line.
+  - version: 0.3.0
+    date: '2024-11-21'
+    breaking: false
+    highlights:
+      - New provider - Microsoft Azure Quantum.
+      - Noise models (BitFlip, Phase Damping, Amplitude Damping).
+      - Custom gates, custom basis measurements, breakpoints, dynamic instructions.
+      - Qiskit migration to 1.1.0.
+  - version: 0.2.0
+    date: '2024-05-30'
+    breaking: false
+    highlights:
+      - Google Cirq provider integration.
+      - PauliString operators; noise integration; faster imports.
+  - version: 0.1.6
+    date: '2024-02-27'
+    breaking: false
+    highlights:
+      - First public release - circuit creation, OpenQASM conversion.
+      - Backends for AWS Braket, IBM, and Eviden.
