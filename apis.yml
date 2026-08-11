@@ -46,6 +46,15 @@ tags:
 - Developer Tools
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/ColibrITD-SAS/mpqp/issues
+- type: Releases
+  url: https://github.com/ColibrITD-SAS/mpqp/releases
+- type: ContributionGuide
+  url: https://github.com/ColibrITD-SAS/mpqp/blob/main/CONTRIBUTING.md
+- type: License
+  name: GPL-3.0
+  url: https://github.com/ColibrITD-SAS/mpqp/blob/main/LICENSE
 - type: DomainSecurity
   url: security/colibri-domain-security.yml
 - type: Website
